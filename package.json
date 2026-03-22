@@ -21,9 +21,11 @@
     "@astrojs/cloudflare": "^13.1.3",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^6.0.8",
+    "tailwind-clamp": "^4.5.0",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
+    "vite-plugin-mkcert": "^1.17.10",
     "wrangler": "^4.76.0"
   }
 }

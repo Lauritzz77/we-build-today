@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "tailwind-clamp";
 
 @theme {
   --font-sans: var(--font-satoshi);
