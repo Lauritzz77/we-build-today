@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --version)",
+      "Bash(npm --version)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm build:*)",
+      "Bash(find /Users/laurasmussen/Kunder/__WeBuildToday__/we-build-today -maxdepth 2 -name *.astro ! -path */node_modules/*)",
+      "WebSearch",
+      "mcp__ref-tools__ref_search_documentation",
+      "WebFetch(domain:docs.astro.build)"
+    ]
+  }
+}
