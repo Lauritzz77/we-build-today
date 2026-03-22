@@ -4,3 +4,36 @@
 @theme {
   --font-sans: var(--font-satoshi);
 }
+
+::selection {
+  background: hsl(168, 73%, 39%);
+  color: white;
+}
+
+body {
+  animation: bg-cycle 60s ease infinite;
+}
+
+@keyframes bg-cycle {
+  0%    { background-color: #f8fafc; } /* slate-50 */
+  5%    { background-color: #f9fafb; } /* gray-50 */
+  10%   { background-color: #fafafa; } /* zinc-50 */
+  15%   { background-color: #fafaf9; } /* stone-50 */
+  20%   { background-color: #fef2f2; } /* red-50 */
+  25%   { background-color: #fff7ed; } /* orange-50 */
+  30%   { background-color: #fffbeb; } /* amber-50 */
+  35%   { background-color: #fefce8; } /* yellow-50 */
+  40%   { background-color: #f7fee7; } /* lime-50 */
+  45%   { background-color: #f0fdf4; } /* green-50 */
+  50%   { background-color: #ecfdf5; } /* emerald-50 */
+  55%   { background-color: #f0fdfa; } /* teal-50 */
+  60%   { background-color: #ecfeff; } /* cyan-50 */
+  65%   { background-color: #f0f9ff; } /* sky-50 */
+  70%   { background-color: #eff6ff; } /* blue-50 */
+  75%   { background-color: #eef2ff; } /* indigo-50 */
+  80%   { background-color: #f5f3ff; } /* violet-50 */
+  85%   { background-color: #faf5ff; } /* purple-50 */
+  90%   { background-color: #fdf4ff; } /* fuchsia-50 */
+  95%   { background-color: #fdf2f8; } /* pink-50 */
+  100%  { background-color: #f8fafc; } /* back to slate-50 */
+}

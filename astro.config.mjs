@@ -7,6 +7,9 @@ import { defineConfig, fontProviders } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   adapter: cloudflare(),
+  devToolbar: {
+    enabled: false,
+  },
   fonts: [
     {
       provider: fontProviders.fontshare(),
